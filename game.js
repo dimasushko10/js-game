@@ -253,7 +253,7 @@ const UI = {
     this.drawScore();
   },
   drawScore: function () {
-    sctx.fillStyle = "#FFFFFF";
+    sctx.fillStyle = "#green";
     sctx.strokeStyle = "#000000";
     switch (state.curr) {
       case state.Play:
